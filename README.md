@@ -44,3 +44,27 @@ A smart, intuitive frontend for transforming raw bank statements into actionable
 
 ## 📂 Project Structure (Simplified)
 
+📦 src/
+├── components/              # UI components (Dashboard, Login, Sidebar, etc.)
+│   ├── Dashboard.tsx
+│   ├── Insights.tsx
+│   ├── Login.tsx
+│   ├── Navigation.tsx
+│   ├── Pricing.tsx
+│   ├── Settings.tsx
+│   ├── Sidebar.tsx
+│   ├── Signup.tsx
+│   └── UploadStatement.tsx
+│
+├── contexts/                # React context providers
+│   └── ThemeContext.tsx
+│
+├── data/                    # Mock or static data
+│   └── mockData.ts
+│
+├── types/                   # TypeScript types
+│
+├── App.tsx                  # Main app component
+├── index.css                # Global styles
+├── main.tsx                 # Application entry point
+├── vite-env.d.ts            # Vite-specific TypeScript types
