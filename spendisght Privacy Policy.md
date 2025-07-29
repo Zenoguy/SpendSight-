@@ -8,13 +8,13 @@ At *SpendSight*, your privacy and data security are of utmost importance to us. 
 
 ## 1. Data Collection & Usage
 
-- *No Bank Logins Required: We do **not* request or store your bank login credentials. You should never enter your online banking username or password anywhere on SpendSight.
+- No Bank Logins Required: We do **not* request or store your bank login credentials. You should never enter your online banking username or password anywhere on SpendSight.
 
-- *PDF Upload Only: Our application only processes **bank statement PDFs* that you upload voluntarily. These documents are typically downloaded by users from their bank’s official portal.
+- PDF Upload Only: Our application only processes **bank statement PDFs* that you upload voluntarily. These documents are typically downloaded by users from their bank’s official portal.
 
-- *Voluntary Submission: You may choose to **blur, redact, or remove* any sensitive information (such as account numbers, balances, IFSC codes) before uploading your statement.
+- Voluntary Submission: You may choose to **blur, redact, or remove* any sensitive information (such as account numbers, balances, IFSC codes) before uploading your statement.
 
-- *No Real-Time Banking Access: SpendSight does **not access your bank account directly* or retrieve any data from financial institutions or APIs.
+- No Real-Time Banking Access: SpendSight does **not access your bank account directly* or retrieve any data from financial institutions or APIs.
 
 ---
 
