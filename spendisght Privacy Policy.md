@@ -1,6 +1,6 @@
 # SpendSight Privacy Policy & Disclaimer
 
-*Effective Date:* [Insert Date]
+*Effective Date:* [29th July 2025]
 
 At *SpendSight*, your privacy and data security are of utmost importance to us. This Privacy Policy and Disclaimer outlines the nature of data we collect, how we process it, and the measures we take to protect your personal information when you use our platform.
 
