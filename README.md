@@ -3,7 +3,7 @@
 **Your Finances. Decoded.**  
 A smart, intuitive frontend for transforming raw bank statements into actionable insights — all in a few clicks.
 
-🚀 [Live Demo](https://guileless-pie-4be968.netlify.app/)  
+🚀 [Live Demo](https://spendsight.netlify.app/)  
 📦 Frontend Repo: [Zenoguy/SpendSight-](https://github.com/Zenoguy/SpendSight-)
 
 ---
