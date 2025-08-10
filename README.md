@@ -26,7 +26,7 @@ A smart, intuitive frontend for transforming raw bank statements into actionable
 
 | Feature                      | Description |
 |-----------------------------|-------------|
-| 🗂️ PDF Upload               | Upload your bank statement securely |
+| 🗂️ PDF/CSV/Photo Upload     | Upload your bank statements, bills, personal finance records securely |
 | 📊 Table View               | Clean display of parsed transactions |
 | 📈 Charts (in progress)     | Visual breakdown of categories |
 | 🧭 Modes                    | Switch between Personal and Business dashboards |
@@ -40,31 +40,6 @@ A smart, intuitive frontend for transforming raw bank statements into actionable
 - **Routing**: React Router DOM
 - **Deployment**: Netlify
 
----
-
-## 📂 Project Structure (Simplified)
-
-📦 src/
-├── components/              # UI components (Dashboard, Login, Sidebar, etc.)
-│   ├── Dashboard.tsx
-│   ├── Insights.tsx
-│   ├── Login.tsx
-│   ├── Navigation.tsx
-│   ├── Pricing.tsx
-│   ├── Settings.tsx
-│   ├── Sidebar.tsx
-│   ├── Signup.tsx
-│   └── UploadStatement.tsx
-│
-├── contexts/                # React context providers
-│   └── ThemeContext.tsx
-│
-├── data/                    # Mock or static data
-│   └── mockData.ts
-│
-├── types/                   # TypeScript types
-│
-├── App.tsx                  # Main app component
 ├── index.css                # Global styles
 ├── main.tsx                 # Application entry point
 ├── vite-env.d.ts            # Vite-specific TypeScript types
