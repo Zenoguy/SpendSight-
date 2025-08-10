@@ -194,13 +194,13 @@ export const UploadStatement: React.FC<UploadStatementProps> = ({ selectedTier }
           section="bills"
           icon={Receipt}
           title="Upload Bills"
-          description="Upload PDF bank statements and bills for analysis"
+          description="Upload your Bills for analysis and categorization"
         />
         <SectionButton
           section="records"
           icon={Database}
           title="Import Existing Records"
-          description="Import CSV/Excel files with existing transaction data"
+          description="Upload PDF bank statements or CSV/Excel files with existing transaction data"
         />
       </div>
 
@@ -217,7 +217,7 @@ export const UploadStatement: React.FC<UploadStatementProps> = ({ selectedTier }
               )}
             </div>
             <h2 className="text-xl font-semibold text-white">
-              {activeSection === 'bills' ? 'Upload Financial Statements' : 'Import Transaction Records'}
+              {activeSection === 'bills' ? 'Upload Bills' : 'Import Transaction Records'}
             </h2>
           </div>
 
@@ -238,7 +238,7 @@ export const UploadStatement: React.FC<UploadStatementProps> = ({ selectedTier }
                 <Upload className="w-12 h-12 text-gray-300" />
               </div>
               <h3 className="text-lg font-medium text-white mb-2">
-                Drop your {activeSection === 'bills' ? 'PDF statements' : 'CSV/Excel files'} here
+                Drop your {activeSection === 'bills' ? 'Bills photos' : 'CSV/Excel files'} here
               </h3>
               <p className="text-gray-300 mb-4">
                 or click to browse files

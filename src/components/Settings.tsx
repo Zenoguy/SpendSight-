@@ -172,13 +172,13 @@ export const Settings: React.FC = () => {
                     <span className="text-white font-bold text-lg">S</span>
                   </div>
                   <div>
-                    <p className="font-medium text-white">SpendSight v1.0.0</p>
-                    <p className="text-sm text-gray-400">Smart Financial Statement Parser</p>
+                    <p className="font-medium text-white">SpendSight v2.0.0</p>
+                    <p className="text-sm text-gray-400">Smart Financial Statement Parser & Tracker</p>
                   </div>
                 </div>
                 <p className="text-sm text-gray-300 leading-relaxed">
-                  Built at Business Hackathon 2K25 by Team SpendSight. 
-                  Transform your financial statements into actionable insights with AI-powered analysis.
+                  SWE LAB PROJECT 2k25. 
+                  SpendSight turns messy bank statements and bill photos into clean, categorized insights — helping you track and understand your spending in just one click.
                 </p>
               </div>
             </div>

@@ -59,14 +59,14 @@ export const Insights: React.FC<InsightsProps> = ({ selectedTier }) => {
 
   if (selectedTier === 'free') {
     return (
-      <div className="p-6 pb-24 lg:pb-6">
+      <div className="p-4 sm:p-6 pb-24 lg:pb-6">
         <div className="relative group max-w-2xl mx-auto">
           <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-cyan-500/20 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-300"></div>
           <div className="relative glass rounded-3xl p-12 text-center soft-shadow-lg border border-white/20">
             <div className="p-6 glass rounded-3xl w-fit mx-auto mb-6 glow-purple">
               <Brain className="w-16 h-16 text-purple-400" />
             </div>
-            <h2 className="text-3xl font-bold text-white mb-4 bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
               AI Insights Available
             </h2>
             <p className="text-gray-300 mb-8 max-w-md mx-auto leading-relaxed">
@@ -93,7 +93,8 @@ export const Insights: React.FC<InsightsProps> = ({ selectedTier }) => {
             AI-Powered Insights
           </h2>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+
             {insights.map((insight, index) => {
               const Icon = insight.icon;
               return (
@@ -134,7 +135,7 @@ export const Insights: React.FC<InsightsProps> = ({ selectedTier }) => {
                   Ask About Your Expenses
                 </h3>
                 
-                <div className="glass rounded-2xl p-4 mb-6 max-h-64 overflow-y-auto custom-scrollbar border border-white/20">
+                <div className="glass rounded-2xl p-4 mb-6 max-h-64 md:max-h-80 overflow-y-auto custom-scrollbar border border-white/20">
                   {chatHistory.length === 0 ? (
                     <div className="text-center py-8">
                       <div className="p-4 glass rounded-2xl w-fit mx-auto mb-4">
@@ -161,7 +162,7 @@ export const Insights: React.FC<InsightsProps> = ({ selectedTier }) => {
                   )}
                 </div>
 
-                <div className="flex space-x-3">
+                <div className="flex flex-col sm:flex-row sm:space-x-3 space-y-3 sm:space-y-0">
                   <input
                     type="text"
                     value={chatMessage}
